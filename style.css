@@ -4,7 +4,25 @@ h1{
     text-transform: uppercase;
 }
 
-.texto{
+.contenedor-texto{
+    width: 95%;
+    border: 2px;
+    display: flex;
+    align-items:center;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+}
+
+.texto-1{
+    color: black;
+    background-color: antiquewhite;
+    padding: 25px;
+    margin: 10px;
+}
+
+.texto-2{
+    color: azure;
+    background-color: black;
+    padding: 25px;
+    margin: 10px;
 }
