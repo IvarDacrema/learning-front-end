@@ -32,7 +32,7 @@
         <a href="mailto:ivar.m.dacrema@hotmail.com">Enviar Email</a>
         <br>
         <br>
-        <form>
+        <form action="url-distinta" method="post">
             <label for="nombre">Nombre</label>
             <input type="text" name="nombre" id="nombre">
             <label for="apellido">apellido</label> <!-- Esto muestra una palabra en la casilla del formulario, en este caso apellido -->
@@ -40,23 +40,26 @@
             <br>
             <br>
             <label for="empleado">Empleado</label>
-            <input type="radio" name="situacion-laboral" id="empleado">
-            <label for="desempleado">Empleado</label>
-            <input type="radio" name="situacion-laboral" id="desempleado">
+            <input type="radio" name="situacion-laboral" id="empleado" value="empleado">
+            <label for="desempleado">Desempleado</label>
+            <input type="radio" name="situacion-laboral" id="desempleado" value="desempleado">
             <label for="busqueda">En busqueda activa</label>
-            <input type="radio" name="situacion-laboral" id="busqueda">
+            <input type="radio" name="situacion-laboral" id="busqueda" value="busqueda">
+            <br>
+            <label for="html">HTML</label>
+            <input type="checkbox" name="tecnologias" id="html" value="html">
+            <label for="java">Java</label>
+            <input type="checkbox" name="tecnologias" id="java" value="java">
+            <label for="react">React</label>
+            <input type="checkbox" name="tecnologias" id="react" value="react">
+            <label for="docker">Docker</label>
+            <input type="checkbox" name="tecnologias" id="docker" value="docker">
+            <label for="kubernet">Kubernet</label>
+            <input type="checkbox" name="tecnologias" id="kubernet" value="kubernet">
+            <br>
+            <input type="submit" value="enviar">
         </form>
-        <br>
-        <label for="html">HTML</label>
-        <input type="checkbox" name="tecnologias" id="html" value="1">
-        <label for="java">Java</label>
-        <input type="checkbox" name="tecnologias" id="java" value="2">
-        <label for="react">React</label>
-        <input type="checkbox" name="tecnologias" id="react" value="3">
-        <label for="docker">Docker</label>
-        <input type="checkbox" name="tecnologias" id="docker" value="4">
-        <label for="kubernet">Kubernet</label>
-        <input type="checkbox" name="tecnologias" id="kubernet" value="5">
+       
     </main>
 
     <footer>
