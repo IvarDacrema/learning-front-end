@@ -3,6 +3,7 @@ h1{
     font-weight: 500; 
     text-transform: uppercase;
     text-decoration: underline red wavy 5px;
+    text-transform: capitalize;
 }
 
 .contenedor-texto{
@@ -19,6 +20,7 @@ h1{
     background-color: antiquewhite;
     padding: 25px;
     margin: 10px;
+    text-transform: lowercase;
 }
 
 .texto-2{
@@ -26,4 +28,5 @@ h1{
     background-color: black;
     padding: 25px;
     margin: 10px;
+    text-transform: uppercase;
 }
