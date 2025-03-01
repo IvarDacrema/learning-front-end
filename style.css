@@ -54,3 +54,16 @@ th{
 tr:hover{
     background-color: rgb(179, 218, 218);
 }
+
+.rgb{
+    color: rgb(rgba(157, 255, 0, 0.767), green, blue);
+    background-color: rgb(rgb(255, 0, 0), green, blue);
+}
+.hexa{
+    color: #ebe70c;
+    background-color: rgb(170, 86, 219);
+}
+.hls{
+    color:hsl(15, 35%, 80%);
+    background-color: hsl(1, 25%, 35%);
+}
