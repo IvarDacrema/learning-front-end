@@ -67,3 +67,68 @@ tr:hover{
     color:hsl(15, 35%, 80%);
     background-color: hsl(1, 25%, 35%);
 }
+
+.conteiner{
+    background-color: black;
+    display: flex;
+}
+
+.div-rojo{
+    background-color: red;
+    border: black 1px;
+    padding: 15px;
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    display: block;        
+}
+
+.div-verde{
+    background-color: green;
+    border: black 1px;
+    padding: 15px;
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    display: block;    
+}
+
+.div-azul{
+    background-color: blue;
+    border: black 1px;
+    padding: 15px;
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    display: block;        
+}
+
+.div-amarillo{
+    background-color: yellow;
+    border: black 1px;
+    padding: 15px;
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    display: block;        
+}
+
+.span-rojo{
+    background-color: red;
+    border: black 1px;
+    padding: 15px;
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    display: inline;    
+}
+
+.span-verde{
+    background-color: green;
+    border: black 1px;
+    padding: 15px;
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    display: inline;    
+}
