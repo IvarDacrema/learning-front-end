@@ -14,17 +14,29 @@ h1{
     text-transform: uppercase;
     text-decoration: underline red wavy 5px;
     text-transform: capitalize;
-    position: sticky;
-    top: 0;
 }
 
-.contenedor-texto{
+.contenedor{
     width: 95%;
     border: 2px;
+    position: relative;
+}
+
+.texto{
     display: flex;
     align-items:center;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.risas.img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
 }
 
 .texto-1{
