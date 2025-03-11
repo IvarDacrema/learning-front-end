@@ -2,12 +2,20 @@
     list-style-image: url(assets/img/icons8-programar-16.png);
 }
 
+.posicion{
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+}
+
 h1{
     font-family: "Oswald", sans-serif;
     font-weight: 500; 
     text-transform: uppercase;
     text-decoration: underline red wavy 5px;
     text-transform: capitalize;
+    position: sticky;
+    top: 0;
 }
 
 .contenedor-texto{
