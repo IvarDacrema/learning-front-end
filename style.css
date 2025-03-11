@@ -32,11 +32,17 @@ h1{
     left: 0px;
 }
 
-.risas.img{
+.risas-img{
     position: absolute;
     top: 0px;
     left: 0px;
     z-index: -1;
+    display: hidden;
+}
+
+.risas-img:hover{
+    z-index: 2;
+    display: flex;
 }
 
 .texto-1{
