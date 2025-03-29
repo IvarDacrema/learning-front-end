@@ -45,6 +45,18 @@ h1{
     display: flex;
 }
 
+p::first-line{
+    color: red;
+}
+
+p::first-letter{
+    font-size: 100px;
+}
+
+p.texto-1::before{
+    content: url(assets/img/icons8-programar-16.png);
+}
+
 .texto-1{
     color: black;
     background-color: antiquewhite;
