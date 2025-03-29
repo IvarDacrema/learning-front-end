@@ -45,13 +45,6 @@ h1{
     display: flex;
 }
 
-p::first-line{
-    color: red;
-}
-
-p::first-letter{
-    font-size: 100px;
-}
 
 p.texto-1::before{
     content: url(assets/img/icons8-programar-16.png);
@@ -169,4 +162,31 @@ tr:hover{
     width: 100px;
     height: 100px;
     display: inline;    
+}
+
+.img-fondo{
+    width: 50%;
+}
+
+.img-fondo:hover{
+    opacity: 0.5;
+}
+
+div.contenedor-objetivo{
+    background: url("/assets/img/fondo.jpg");
+    background-size: cover;
+    border: 2px solid black;
+    width: 50%;
+}
+
+.contenedor-objetivo-caja{
+    background-color: black;
+    opacity: 0.6;
+    margin: 30px;
+    border: 2px solid black;
+}
+
+.contenedor-objetivo-p{
+    color: white;
+    text-align: center;
 }
